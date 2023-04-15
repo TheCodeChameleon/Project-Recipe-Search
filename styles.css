@@ -104,7 +104,6 @@ h1 {
 .recipes {
   width: 90%;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
