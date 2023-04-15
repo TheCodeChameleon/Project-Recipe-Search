@@ -80,6 +80,7 @@ function App() {
       if (!result.more) {
         return setAlert("No food with such name");
       }
+      setRecipes([]);
       setRecipes(result.hits);
       setQuery("");
       setAlert("");
