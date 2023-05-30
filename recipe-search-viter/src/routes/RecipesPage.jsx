@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { RecipesContext } from "../context/RecipesContext";
 import { Link } from "react-router-dom";
 
-const RecipesPage = () => {
+export const RecipesPage = () => {
   const { recipes, setRecipes } = useContext(RecipesContext);
 
   if (!recipes.length) {
@@ -32,5 +32,3 @@ const RecipesPage = () => {
     </div>
   );
 };
-
-export default RecipesPage;
