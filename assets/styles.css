@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --background-color1: #f1f2f1;
+  --background-color1: #121212;
   --background-color2: #cccccc2c;
   --background-color3: #333333;
   --font-color1: #f5f5f5;
   --font-color2: #f5f5f5d3;
-  --font-color3: #1e1e24;
+  --font-color3: #ffc124;
 }
 
 * {
@@ -237,13 +237,6 @@ h1 {
   border: none;
   font-size: 3rem;
   cursor: pointer;
-}
-
-#submit-button {
-  width: 35px;
-}
-
-.recipes-home-button {
 }
 
 .footer {
